@@ -40,7 +40,7 @@
           port: 161
       macros:
         - macro: "{$SNMP_COMMUNITY}"
-!          value: "community_string"
+!!          value: "community_string"
       tags:
         - tag: "TENANT"
           value: "SG"
